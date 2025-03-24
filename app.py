@@ -4,7 +4,7 @@ import pickle as pkl
 # For loading your trained model
 
 # Load your dataset
-ds = pd.read_csv("cleaned_data.csv 2")
+ds = pd.read_csv("cleaned_data.csv")
 model = pkl.load(open("D_Cls.pkl", "rb"))
 # Load your trained model (ensure your model file path is correct)
 #model = joblib.load("path/to/your_model.pkl")  # Update this path
